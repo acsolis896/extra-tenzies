@@ -22,12 +22,6 @@ module.exports = {
   },
   "entry": {
     "index": "./index"
-  },
-  
-  "presets": [
-    "babel-preset-env",
-    "babel-preset-react"
-  ],
-  "plugins": ["babel-plugin-transform-object-rest-spread"]
+  }
 
 };
