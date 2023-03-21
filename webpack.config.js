@@ -2,6 +2,9 @@ module.exports = {
   "output": {
     "filename": "[name].pack.js"
   },
+  "resolve": {
+    extensions: ['.js', '.jsx']
+},
   "module": {
     "rules": [
       {
